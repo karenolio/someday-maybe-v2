@@ -1,0 +1,194 @@
+/* THIS IS THE BLUE & SPACE GRAY VERSION
+navy: #305885;
+bright blue: #51B2E4;
+grey: #8E8D82;
+*/
+
+html {
+    height: 100%;
+}
+
+/** { 
+  outline: 1px solid black;
+}
+*/
+.somedaymaybe {
+  font-family: 'Lato', sans-serif;
+  /*font-style: italic;*/
+  font-weight: bold;
+  color: white;/*#fbd386*/
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.description{ /*"list your tasks out*/
+  font-family: 'Lato', sans-serif;
+  /*font-style: italic;*/
+  color: white; /*#fbd386*/
+  /*opacity: 60%;*/
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+.explanation { /*text under the form*/
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  color: gray; /*#fbd386*/
+  /*opacity: 10%;*/ 
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 16px;
+}
+
+/*body {
+	background-color: #10d897;
+}*/
+
+#form {
+  margin-top: 40px;
+}
+
+
+#newItem { /*this is the "enter item here" bar*/
+  height: 45px;
+  width: 700px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  text-indent: 12px;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-color: #8E8D82; /*grey*/
+}
+
+#newItem:hover {
+	border-color: #51B2E4; /*bright blue*/
+}
+
+#addItem { /*this is the "+" box*/
+  height: 49px;
+  background-color: #8E8D82; /*grey*/
+  color:white;
+  border: 0;
+  border-radius: 2px;
+  margin-left: -6px;
+  margin-top: 90px; /*change this to move form's bar up and down*/
+  margin-bottom: 1px;
+  padding: 3px 20px 3px 20px;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+}
+
+#addItem:hover {
+	background:#51B2E4; /*bright blue*/
+}
+
+body { /*this is the yellow gradient background*/
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #305885;
+  background: -webkit-linear-gradient(#305885, #8E8D82);
+  background:    -moz-linear-gradient(#305885, #8E8D82);
+  background:         linear-gradient(#305885, #8E8D82);
+}
+
+.main { /* this is the horizontal block of white */
+  background-color: white;
+  margin-top: 70px;
+  min-width: 1200px;
+  min-height: 50%;
+}
+
+/* Bottom Content */
+#bottom {
+	width: 40%; 
+	/*auto: X is all the way to the right*/
+	/*35%: 35% from left*/
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	color: gray;
+	font-size: 20px;
+}
+
+#itemList { /*positioning of the list of tasks*/
+	text-align: left;
+	padding-left: 50px;
+	padding-bottom: 70px;
+	padding-top: 20px;
+	display: block;
+}
+
+.list {
+	display: inline-block;
+}
+
+.box {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+li {
+	font-family: 'Lato', sans-serif;
+	/*font-style: italic;*/
+	font-size: 1em;
+	display: block;
+	padding: 3px 0; 
+}
+
+.highlight {
+	color: #40BF00; /*greenish color*/
+}
+
+.checkbox {
+	height: 30px; 
+	background-color: #bdc3c7;
+	border: #51B2E4;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px; 
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	/*font-family: arial;*/ /*so the check mark is more rounded, less handwritten like*/
+	color: white;
+}
+
+.checkbox:hover {
+	background-color: #40BF00;
+	color: #ffffff;
+}
+
+.delete { 
+	height: 30px;
+	background-color: #bdc3c7;
+	border: 0;
+	border-radius: 2px; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	/*font-family: arial;*/ 
+	float: right;
+	color: white;
+}
+
+.delete:hover {
+	background-color: #FA2A00; /*red X box*/
+	color: #fff;
+}
+
+.delete:focus {
+	outline: none;
+}
+
+	
+
